@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+  }
+  
+  .weather-location, .weather-condition, .weather-temp {
+    margin: 10px;
+  }
+  
+  .weather-pic {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .form-container {
+    margin: 20px;
+  }
+  
+  .custom-input, .custom-button {
+    margin: 5px;
+  }
+  
