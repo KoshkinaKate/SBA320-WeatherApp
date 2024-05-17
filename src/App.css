@@ -1,21 +1,32 @@
 .App {
     text-align: center;
+    background-color: lightblue;
+    height: 150vh;
   }
-  
-  .weather-location, .weather-condition, .weather-temp {
+  .weather-main{
+    border: solid orange;
+  }
+  .weather-location, .weather-temp, .weather-humidity, .weather-windSpeed, .weather-cloudCover, .weather-uvIndex {
     margin: 10px;
+    border: solid blue;
   }
+
   
-  .weather-pic {
+  /* .weather-pic {
     width: 100px;
     height: 100px;
-  }
+  } */
   
   .form-container {
     margin: 20px;
+    border: solid red;
   }
   
-  .custom-input, .custom-button {
+  .custom-input {
     margin: 5px;
+    border: solid salmon;
   }
-  
+  .custom-button {
+    border:solid green;
+
+  }

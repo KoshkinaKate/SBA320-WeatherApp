@@ -23,7 +23,7 @@ export default function Form({ weatherSearch }) {
           name="searchterm"
           onChange={handleChange}
           value={formData.searchterm}
-          placeholder="Enter location (lat,lng)"
+          placeholder="Enter location"
         />
         <button className="custom-button" type="submit">Submit</button>
       </form>
