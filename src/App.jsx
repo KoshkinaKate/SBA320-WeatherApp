@@ -6,7 +6,6 @@ import Form from "./components/Form";
 
 export default function App() {
   const weatherApiKey = import.meta.env.VITE_API_KEY;
-  const geocApiKey = import.meta.env.VITE_OPENCAGE_API_KEY; // Add your OpenCage API key
 
   const [weather, setWeather] = useState(null);
   const [locationName, setLocationName] = useState("Current Location");
